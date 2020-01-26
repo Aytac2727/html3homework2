@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/cdf62a7c5d.js" crossorigin="anonymous"></script>
+    <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    #head .bezdim {
+        margin-bottom:10em;  
+        position: fixed;
+        top:10px;
+    }
+    #head .btn {
+        border: none;
+        background: none;
+        color: rgb(233, 211, 211);
+        padding: 10px 20px;
+        font-size: 25px;
+        float: left;
+    }
+    #head .btn:hover {
+        color: white;
+    }
+    
+    #head .about  {
+       margin-left: 16em;
+    }
+    #head {
+        height: 100vh;
+        text-align: center;
+        background-image: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%), url(photo/head.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 8em 18em;
+    } 
+    #head h1 {
+        font-size: 52px;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #head .divider {
+    width: 5em;
+    border-width: .1em;
+    border-color: #f4623a;
+    margin: 30px 21em;
+    }
+
+    #head p {
+        margin-bottom: 30px;
+        font-size: 23px;
+        color: rgb(214, 203, 203);
+    }
+    #head .btn1 {
+        border-radius: 10em;
+        border: none;
+        padding: 20px 35px;
+        background-color: #f4623a;
+        color: white;
+        font-weight: bolder;
+    }
+    #head .btn1:hover {
+        background: #f1562b ;
+    }
+    #head2 {
+        height: 500px;
+        text-align: center;
+        padding: 6em 20em;
+        background: #f4623a;
+        color: white;
+    } 
+    #head2 p {
+        margin-bottom: 30px;
+        padding: 10px 0;
+        font-size: 20px;
+        opacity: 0.7;
+    }
+    #head2 .divider2 {
+        margin: 30px 20em;
+        width: 4em;
+        border-color: white;
+    }
+   #head2 .btn {
+        border-radius: 10em;
+        border: none;
+        padding: 20px 35px;
+        background-color: white;
+        color: black;
+        font-weight: bolder;
+        margin-bottom: 40px;
+   } 
+   #head2 .btn:hover {
+       background: rgb(221, 220, 220);
+   }
+
+   #head3 {
+       text-align: center;
+       padding: 6em 3em;
+       height: 550px;
+   }
+
+   #head3 .divider {
+        margin: 30px 37em;
+        width: 4em;
+        border-color: #f4623a;
+   }
+   #head3 .icon {
+       float: left;
+       width: 25%;
+       margin: 30px 0;
+   }
+
+   #head3 h1 {
+       font-family:Georgia, 'Times New Roman', Times, serif;
+   }
+   #head3 h2 {
+       padding-top: 20px;
+       padding-bottom: 10px;
+   }
+   #head3 p {
+       opacity: 0.8;
+       margin-right: 20px;
+       margin-left: 20px;
+       font-size: 20px;
+   }
+   #head3 .icon i {
+         color: #f4623a;
+         padding: 15px 16px;
+         border-radius: 50%;
+         background: white;
+   }
+   #head4 {
+       width: 100%;
+       height: 500px;
+       text-align: center;
+       color:#767676
+   }
+   #head4 h3 {
+            margin-top: 5em;
+   }
+   #head4 .a {
+       background-image: url(photo/one.jpg);
+       float: left;
+       height: 250px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       width: 33.333%;
+   }
+   #head4 .a:hover {
+    background: rgba(244,98,58,.9);
+    transition: opacity .25s;
+    color: white;
+    }
+   #head4 .b {
+       background-image: url(photo/two.jpg);
+       float: left;
+       height: 250px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       width: 33.333%;
+   }
+   #head4 .b:hover {
+    background: rgba(244,98,58,.9);
+    transition: opacity .25s;
+    color: white;
+    }
+
+   #head4 .c {
+       background-image: url(photo/3.jpg);
+       height: 250px;
+       float: left;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       width: 33.333%;
+       }
+    #head4 .c:hover {
+    background: rgba(244,98,58,.9);
+    transition: opacity .25s;
+    color: white;
+    }
+   #head4 .d {
+       background-image: url(photo/4.jpg);
+       float: left;
+       height: 250px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       width: 33.333%;
+   }
+   #head4 .d:hover {
+    background: rgba(244,98,58,.9);
+    transition: opacity .25s;
+    color: white;
+    }
+   #head4 .e {
+       background-image: url(photo/5.jpg);
+       float: left;
+       height: 250px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       width: 33.333%;
+   }
+   #head4 .e:hover {
+    background: rgba(244,98,58,.9);
+    transition: opacity .25s;
+    color: white;
+    }
+   #head4 .f {
+       background-image: url(photo/6.jpg);
+       float: left;
+       height: 250px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       width: 33.333%;
+   }
+   #head4 .f:hover {
+    background: rgba(244,98,58,.9);
+    transition: opacity .25s;
+    color: white;
+    }
+   
+   #head5 {
+       width: 100%;
+       text-align: center;
+       padding: 7em 0;
+       background-color: #343a40;
+       height: 350px;
+   }
+   #head5 h1 {
+       color: white;
+       font-size: 40px;
+   }
+
+   #head5 input {
+    border-radius: 10em;
+        border: none;
+        padding: 20px 35px;
+        background-color: white;
+        color: black;
+        font-weight: bolder;
+        margin-top: 35px;
+   }
+   #head5 input:hover {
+       background: rgb(230, 224, 224);
+   }
+    #head6 {
+        height: 350px;
+        width: 100%;
+        margin: 6em 0;
+        text-align: center;
+       
+}
+.head6son {
+    width: 50%;
+    margin: auto;
+}
+    #head6 .icon6 {
+        float: left;
+        width: 50%;
+    }
+    #head6 .icon6 i {
+        opacity: 0.6;
+    }
+
+    #head6 .icon6 a {
+    color:#f4623a ;
+    }
+
+    #head6 .p1 {
+        font-size: 19px;
+        margin: 2em;
+        opacity: 0.6;
+    }
+    #head6 .p2 {
+        opacity: 0.8;
+        padding-top: 14px;
+    }
+    #head6 .divider6 {
+        margin: 30px 19em;
+        width: 4em;
+        border-color: #f4623a;
+    }
+   .container .p3 {
+       text-align: center;
+       color:rgb(90, 83, 83);
+       margin-bottom: 30px;
+   }
+    </style>
+</head>
+<body>
+    <!-- start -->
+    <div id="head">
+        <div class="bezdim">
+            <div class="boots"> 
+                <input class="btn" type="button" value="Start Bootstrap">
+            </div>
+            <div class="about">
+                <input class="btn" type="button" value="About">
+                <input class="btn" type="button" value="Services">
+                <input class="btn" type="button" value="Portfolio">
+                <input class="btn" type="button" value="Contact">
+            </div>
+        </div>
+    <div class="title">
+<h1>YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES</h1>
+    <hr class="divider">
+    <div class="information">
+<p>Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+    </div>   
+<input class="btn1" type="button" value="FIND OUT MORE">
+</div>
+    </div>
+     <!-- two finish -->
+    <div id="head2">
+        <div class="title2">
+            <h1>We've got what you need!</h1>
+            <hr class="divider2">
+        </div>
+        <div class="information2">
+            <p>Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+        </div>
+        <input class="btn" type="button" value="GET STARTED!">
+    </div>
+    <!-- three finish -->
+    <div id="head3">
+        <h1>At Your Service</h1>
+        <hr class="divider">
+        <div class="icon">
+            <i class="fas fa-gem  fa-4x"></i>
+            <h2>Sturdy Themes</h2>
+            <p>Our themes are updated regularly to keep them bug free!</p>
+        </div> 
+        <div class="icon">
+            <i class="fas fa-tv fa-4x"></i>
+            <h2>Up to Date</h2>
+            <p>All dependencies are kept current to keep things fresh.</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-globe fa-4x"></i>
+            <h2>Ready to Publish</h2>
+            <p>You can use this design as is, or you can make changes!</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-heart fa-4x"></i>
+            <h2>Made with Love</h2>
+            <p>Is it really open source if it's not made with love?</p>
+        </div>
+    </div>
+    <!-- four finish -->
+    <div id="head4">
+        <div class="photos">
+            <div class="a">
+                <h3>Category</h3>
+                <h2>Project name</h2>
+            </div>
+            <div class="b">
+                <h3>Category</h3>
+                <h2>Project name</h2>
+            </div>
+            <div class="c">
+                <h3>Category</h3>
+                <h2>Project name</h2>
+            </div>
+            <div class="d">
+                <h3>Category</h3>
+                <h2>Project name</h2>
+            </div>
+            <div class="e">
+                <h3>Category</h3>
+                <h2>Project name</h2>
+            </div>
+            <div class="f">
+                <h3>Category</h3>
+                <h2>Project name</h2>
+            </div>
+        </div>
+    </div>
+    <!-- five finish -->
+    <div id="head5">
+        <h1>Free Download at Start Bootstrap!</h1>
+        <input type="button" value="DOWNLOAD NOW!">
+    </div>
+    <!-- six finish -->
+    <div id="head6">
+       <div class="head6son">
+        <h1>Let's Get In Touch!</h1>
+        <hr class="divider6" >
+        <p class="p1" >Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+   <div class="icon6">
+    <i class="fas fa-phone fa-4x"></i>
+    <p class="p2">+1 (202) 555-0149</p>
+   </div>
+   <div class="icon6">
+    <i class="fas fa-envelope fa-4x"></i>
+    <p class="p2"> <a href="#">asgarova98@list.ru</p></a> 
+   </div>
+    </div>
+    </div>  
+    <div class="container"> <p class="p3">Copyright © 2019 - Start Bootstrap</p></div>
+</body>
+</html>
